@@ -1,17 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alejandro Lara Lima | Portfolio</title>
+    <style>
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; 
+            line-height: 1.6; 
+            max-width: 850px; 
+            margin: 40px auto; 
+            padding: 0 20px; 
+            color: #24292e; 
+            background-color: #f6f8fa;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border: 1px solid #d1d5da;
+            border-radius: 6px;
+            box-shadow: 0 1px 3px rgba(27,31,35,0.12);
+        }
+        h1 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; color: #0366d6; }
+        h2 { border-bottom: 1px solid #eaecef; padding-bottom: 0.3em; margin-top: 24px; }
+        .contact-info { color: #586069; font-size: 0.9em; margin-bottom: 20px; }
+        .skills-list { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+        strong { color: #000; }
+    </style>
 </head>
 <body>
-    <h1>Alejandro Lara Lima</h1> [cite: 1]
-    <p>Applied Computer Science Student (Game Design) at George Mason University</p> [cite: 4, 7]
-    <p>Welcome to my portfolio. This site is currently under development.</p>
-    
-    <h2>Technical Skills</h2>
-    <ul>
-        <li>Languages: Java, C, Python</li> [cite: 31]
-        <li>Tools: Unity, Blender, Git</li> [cite: 32]
-    </ul>
+    <div class="container">
+        <h1>Alejandro Lara Lima</h1>
+        <div class="contact-info">
+            571 263 6688 | Alejandrolaralima@gmail.com | Fairfax, Virginia [cite: 2, 10]
+        </div>
+
+        <h2>Professional Summary</h2>
+        <p>
+            Applied Computer Science student (Game Design) at George Mason University with a foundation in Java and C programming[cite: 4]. 
+            I am transitioning years of high-stakes accountability in auditing and technical systems maintenance into software development and production-focused roles.
+        </p>
+
+        <h2>Education</h2>
+        <p>
+            <strong>George Mason University</strong><br>
+            B.S. Applied Computer Science (Game Design) | Expected 2028 [cite: 7]
+        </p>
+        <p>
+            <strong>Northern Virginia Community College</strong><br>
+            A.S. Information Technology | 2017 [cite: 8]
+        </p>
+
+        <h2>Technical Skills</h2>
+        <div class="skills-list">
+            <div>
+                <strong>Languages:</strong><br>
+                Java, C, Python [cite: 31]
+            </div>
+            <div>
+                <strong>Developer Tools:</strong><br>
+                Git, GitHub, Unity, Blender, VS Code [cite: 32]
+            </div>
+        </div>
+
+        <p style="margin-top: 40px; font-size: 0.8em; color: #888;">
+            <em>Note: This portfolio is currently under development to include live project demos.</em>
+        </p>
+    </div>
 </body>
 </html>
